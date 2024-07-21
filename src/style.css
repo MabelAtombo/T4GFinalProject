@@ -1,0 +1,138 @@
+.img{
+    height: 50px;
+    width: 20px;
+    }
+    .products{
+        height: 600px;
+        width: 300px;
+        border: 10px solid rgb(63, 20, 20);
+        background-color: rgb(31, 121, 58);
+       
+    
+    }
+    .bigproduct{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    .bbigproduct{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+    }
+    .h1{
+    text-align: center;
+    }
+    .products a:hover{
+        border: 5px double rgb(167, 145, 145);
+    }
+    .mine{
+        background-image: url('https://mywordfmonline.com/wp-content/uploads/2020/06/484b935c-14ef-4611-854c-52b1ac838906.jpg');
+        height: 250px;
+        width: 40%;
+        background-repeat: no-repeat;
+        border-radius: 20%;
+        text-align: center;
+        border-width: 25px;
+        border-style: solid;
+        border-color: #1105b8;
+        border: 25px solid rgb(141, 130, 130);
+        margin: 0 auto;
+        flex-wrap: wrap;
+        padding: 3%;
+        background-position: center;
+    
+       }
+         .big-photo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+         }
+         .bigpic{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+         }
+    
+         .small-photo{
+            border: #183841 solid;
+            justify-content: space-around;
+            padding: 20px;
+    
+         }
+         .photo{
+            width: 30%;
+            margin: 1%;
+            border: 3px solid color red ;
+         }
+    
+       h4{
+          text-align: center;color: blue;background-color: aquamarine;
+           text-transform: uppercase;size: 60px;
+          font-style: inherit;
+       }
+    
+         p{
+        background-color: rgb(185, 168, 70);
+        text-align: center;
+        color: #130f0f;
+        font-size: 200%;
+        border-radius:50px;
+        padding: 3%;
+    }
+    body{
+        background-color:rgb(153, 135, 114);
+    }
+    
+    /* h1{
+        font-size: 40px;
+        font-family: fantasy;
+        text-align: center;
+    } */
+    
+    .big-div{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    gap: 10px;
+    }
+    
+    .big-div img{
+        border-radius: 2px;
+        border: #0fc4f1 solid ;
+    }
+    
+    .navbar ul {
+        background-color:none;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+       
+    }
+    .navbar a {
+        color: rgb(10, 15, 19);
+        text-decoration: none;
+        padding: 15px;
+        text-align: right;
+    }
+    .navbar a:hover{
+        background-color:rgb(9, 105, 68);
+    }
+    .navbar li {
+    justify-content:space-between;
+    
+    }
+    footer{
+        background-color: rgb(87, 74, 18);
+        border: #adafaa 10px solid;
+        
+    
+    }
+    footer ul {
+    display: block;
+    }
