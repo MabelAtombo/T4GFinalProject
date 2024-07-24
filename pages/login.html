@@ -12,8 +12,17 @@
             background-size:cover ;
             background-repeat: no-repeat;
         }   
-
-
+        .log{
+            background-color: aliceblue;
+            height: 500px;
+            width: 500px;
+            text-align: center;
+            padding: 20px;
+            border: 10px solid red;
+        }
+         h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         }
     </style>
 </head>
 <body>
@@ -33,19 +42,56 @@
     </nav>
 </div>
     <h1>This is the Login page.</h1>
-    <form action="" method="get">
+    <!-- <div class="log">
+    <form action="action_page.php" method="post"></form>
         <div class="form"><label for="Your Name"> Your Name</label>
         <input type="text" placeholder="Full Name"/></div>
         <div class="form"> <label for="Email">Your Email</label>
         <input type="email" placeholder="Your email"></div>
         <div class="form"><label for="login"> login Here</label>
-        <input type="text" value="login"></div>
-       <div class="form"> <label for="Password">Enter Your Password</label>
-        <input type="number,text" value="Password"></div>
-    </form>
+        <input type="text" placeholder=" login Here"></div>
+       <div class="form"> <label for="Password"></label> Create Password</label>
+        <input type="text" placeholder= "Password"></div>
+    </form> -->
+   <!-- </div> -->
+    <!-- <form action="action_page.php" method="post">
+        <div class="imagecontainer">
+            <img src="..images/logo3" alt=" imsges" class="images">
+        </div>
+        <div class="container">
+            <label for="uname">
+                <b>username</b>
+            </label>
+            <input type="text" placeholder="Enter Username" name="uname"
+        </div> -->
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+              <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+          
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+
+    
 
     <!-- <p>Charley this far by <b>GRACE</b><br>Welcome !Welcome! Welcome!</p>
-    <h4>Login   Page is under construction.</h4>
+    <h4>Login   Page is under construction.</.>
     <h2>Thank You!</h2> -->
     <hr>
     <footer>
