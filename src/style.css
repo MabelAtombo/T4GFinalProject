@@ -75,15 +75,7 @@
           font-style: inherit;
        }
     
-         p{
-        background-color: rgb(234, 173, 99);
-        text-align: center;
-        color: #130f0f;
-        font-size: 200%;
-        border-radius:50px;
-        padding: 3%;
-    }
-    body{
+       body{
         background-color:white;
     }
     
@@ -107,7 +99,7 @@
         border: #0fc4f1 solid ;
     }
     
-    /* .navbar ul {
+    .navbar ul {
         background-color:orange;
         padding: 0px;
         margin: 0px;
@@ -126,10 +118,10 @@
     .navbar li {
     justify-content: space-evenly;
      */
-    /* } */
+    }
     footer{
-        background-color: rgb(87, 74, 18);
-        border: #adafaa 10px solid;
+        background-color: rgb(212, 172, 206);
+        border: #a5d066 10px solid;
         
     
     }
@@ -144,12 +136,12 @@
         height: 50%;
         width: 50%;
     }
-    /* Bordered form */
+    Bordered form
 form {
     border: 3px solid #f1f1f1;
   }
   
-  /* Full-width inputs */
+  /* Full-width inputs
   input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -309,7 +301,7 @@ form {
   text-align: center;
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #04AA6D;
+  background-color: #084931;
   fon
 }
 .dia{
@@ -330,5 +322,38 @@ form {
   background-color: white;
   height: 600px;
   width: 1000px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 
+
+}
+.just color{
+  background-color: #0fc4f1;
+  height: 600px;
+  width: 400;
+}
+.second{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.justimage{
+  height: 300px;
+  width: 800px;
+}
+.last{
+  height: 300px;
+  width: 700px;
+  background-color: #0fc4f1;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  vertical-align: middle;
+}
+.third{
+  display: flex;
+  flex-wrap: wrap;
+}
+.p{
+  background-color: #0fc4f1;
 }
