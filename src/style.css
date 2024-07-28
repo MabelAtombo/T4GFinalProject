@@ -1,8 +1,24 @@
-.img{
+ .para{
+  background-color: #906598;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ border: #f1f1f1 solid 5px;
+ border-radius: 20px;
+ font-size: 30px;
+ text-align: center;
+}
+.newsletter{
+  height: 200px;
+  width: 1550px;
+  background-color: white;
+  align-self: center;
+  border-radius: 50px;
+  text-align: center;
+}
+ .img{
     height: 50px;
     width: 20px;
     }
-    .products{
+    .pr oducts{
         height: 600px;
         width: 300px;
         border: 10px solid rgb(63, 20, 20);
@@ -36,7 +52,8 @@
         background-repeat: no-repeat;
         text-align: center;
         border-width: 25px;
-        border: 20px rgb(0, 0, 0) solid;
+        border: 20px rgb(37, 15, 36) solid;
+        border-radius: 20px;
         margin: 0 auto;
         flex-wrap: wrap;
         padding: 3%;
@@ -70,7 +87,7 @@
          }
     
        h4{
-          text-align: center;color: rgb(255, 255, 255);background-color: rgb(239, 81, 23);
+          text-align: center;color: rgb(232, 200, 200);background-color: rgb(218, 20, 172);
            text-transform: uppercase;size: 60px;
           font-style: inherit;
        }
@@ -146,10 +163,55 @@ form {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
+  input[type=date],input[type=date ]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=email],input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=number],input[type=telephone ]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  input[type=text],input[type=countries]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .sign{
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .form1{
+      text-align: left;
+        background-color: #f3f685;
+      
+   }
+   .icon{
+    height: 300px;
+    width: 300px;
+   }
   /* /* Set a style for all buttons
   /* button { */
 button{
-    background-color: #04AA6D;
+    background-color: #68887c;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
