@@ -36,8 +36,17 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        background-image: url(../images/logo1.jpeg);
+        
     
+    }
+  
+    #hide{
+      margin-top: 20%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10%;
+      justify-content: space-round;
+
     }
     .purple{
       height: 400px;
