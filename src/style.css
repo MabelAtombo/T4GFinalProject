@@ -151,18 +151,24 @@
       display: inline;
       margin: 0 1rem;
     }
+    footer ul{
+      list-style: none;
+    }
+    footer ul li{
+      display: inline;
+      justify-content: space-between;
+      text-align: center;
+      
+
+    }
   
     footer{
         background-color: rgb(212, 172, 206);
         border: #a5d066 10px solid;
-        
+        background-size: cover;
     
     }
-    footer li {
-    display: block;
-    justify-content: space-evenly;
-    gap: 20px;
-    }
+  
     .form1{
         background-color: white;
         text-align: right;
